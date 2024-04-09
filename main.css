@@ -1,0 +1,182 @@
+body {
+    font-family: "Helvetica";
+    background: #191927 !important;
+    color: #f0ffff !important;
+    color: #c6cccc !important;
+    margin: 0 2.5rem;
+  }
+  
+  @media screen and (min-width: 600px) {
+    body {
+      margin: 0 13rem;
+    }
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex {
+    display: flex;
+    flex: 1;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .masthead {
+    display: flex;
+    padding: 1rem;
+    margin: 5.5rem 1rem;
+    margin-top: 10rem;
+  
+    font-size: 2rem;
+  }
+  
+  .the-dot {
+    font-family: Lato;
+    font-size: 3.3rem;
+    margin: 1rem 0;
+  }
+  
+  .the-name {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+  
+  svg {
+    max-width: 64px;
+    max-height: 64px;
+  }
+  
+  i.icon {
+    display: inline-block;
+    opacity: 1;
+    
+    width: 3rem;
+    height: 3rem;
+    
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    
+    color: #CECECE;
+  }
+  
+  i.icon svg {
+    fill: #CECECE;
+  }
+  
+  .icon-segment {
+    font-size: 3.3rem !important;
+    margin: 1.1rem 0 0.1rem 0 !important;
+  }
+  
+  .icon-segment a {
+    display: inline-block;
+    border: thin solid transparent;
+    color: inherit !important;
+    text-decoration: none !important;
+  
+    /* padding: 2.2rem 1.1rem !important; */
+  
+    width: 3rem;
+    height: 3rem;
+  
+    padding: 1rem;
+  }
+  
+  .icon-segment a:hover {
+    border: thin solid #555 !important;
+  }
+  
+  .divider {
+    background: #fefeff!important;
+    margin: 1rem !important;
+    line-height: 1;
+    height: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.85);
+    border-top: 1px solid rgba(34, 36, 38, 0.15);
+    border-bottom: none;
+  }
+  
+  .intro {
+    margin: 3rem 1rem;
+    line-height: 2rem;
+    font-size: 1.11rem;
+  }
+  
+  .projects {
+    margin: 3rem 1rem;
+    line-height: 2rem;
+  }
+  
+  .projects .about {
+    font-size: 1.1rem;
+  }
+  
+  .project {
+    margin: 1rem 0;
+    text-decoration: none;
+  }
+  
+  .project .title {
+    color: lightskyblue;
+    font-size: 1.15rem;
+    text-underline-position: under;
+  }
+  
+  .project .title:hover {
+    opacity: 0.85;
+  }
+  
+  .project .about {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  
+  .project .about .link {
+    color: lightsteelblue;
+    font-size: 0.9rem;
+  }
+  
+  .contact {
+    margin: 2rem 1rem;
+  }
+  
+  .contact .link {
+    color: lightskyblue;
+    font-size: 1rem;
+    text-underline-position: under;
+  }
+  
+  .greetings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.89rem;
+    margin: 5rem;
+  }
+  
