@@ -13,17 +13,28 @@
   </head>
   <body>
     <div class="flex flex-col masthead center">
-      <div class="the-name">Jack Pashley</div>
+      <div class="the-name">7xck</div>
     </div>
     <!-- <div class="divider"></div> -->
     <div class="">
       <p class="intro">
-        I'm Jack Pashley. This site indexes my personal projects. <br>
+        This site indexes my personal projects. <br>
         I hold a Bachelor of Economics and a Bachelor of Arts. I studied these simultaneously at the University of Queensland.<br>
         While studying, I worked at a small research house as an analyst delivering reports on trading strategies on the ASX and cryptocurrency exchanges. <br>
         I am currently working as a statistical analyst and studying a Graduate Diploma in Information Technology at the University of Queensland.
       </p>
     </div>
+
+    <div class="posts">
+      <ul>
+        {% for post in site.posts}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
     <div class="projects">
       <h3>Personal Projects</h3>
       <div class="about">
@@ -33,7 +44,7 @@
       <!-- 2b2t queue discord bot -->
       <div class="project">
         <a
-          href="https://github.com/jackpashley/2b2t-queue-notifier"
+          href="https://github.com/7xck/2b2t-queue-notifier"
           target="_blank"
           class="title"
           >2b2t queue notifier</a>
@@ -46,7 +57,7 @@
       <!-- auth0 dash template -->
       <div class="project">
         <a
-          href="https://github.com/jackpashley/auth0-dash"
+          href="https://github.com/7xck/auth0-dash"
           target="_blank"
           class="title"
           >Auth0 Dash</a
@@ -58,7 +69,7 @@
 
       <!-- Raydium executor -->
       <div class="project">
-        <a href="https://github.com/jackpashley/raydium-executor" target="_blank" class="title"
+        <a href="https://github.com/7xck/raydium-executor" target="_blank" class="title"
           >Raydium Executor</a
         >
         <div class="about">
@@ -69,7 +80,7 @@
       <!-- Moon Phase visualiser -->
       <div class="project">
         <a
-          href="https://github.com/jackpashley/web-directory-scraper"
+          href="https://github.com/7xck/web-directory-scraper"
           target="_blank"
           class="title"
           >http file index downloader</a
@@ -83,7 +94,7 @@
 
     <!-- <div class="divider"></div> -->
     <div class="contact">
-       Some of my code is on <a href="https://github.com/7xck" class="link" target="_blank" rel="noreferrer noopener">Github</a>. You can reach me at <span class="link">shadowbroker@fourthcircle.group</span>.
+       Some of my code is on <a href="https://github.com/7xck" class="link" target="_blank" rel="noreferrer noopener">Github</a>.
     </div>
     <div class="divider"></div>
     <div class="greetings">Have a nice day!</div>
